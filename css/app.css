@@ -58,7 +58,7 @@ img {
 }
 @font-face {
   font-family: "Proxima Nova";
-  src: url("/font/Proxima-Nova-1.ttf") format("truetype");
+  src: url("/font/Proxima Nova Font") format("truetype");
 }
 body {
   line-height: 1;
@@ -196,8 +196,8 @@ body {
 }
 .hero-heading {
   font-family: "Proxima Nova", sans-serif;
-  max-width: 534px;
-  font-weight: 700s;
+  max-width: 587px;
+  font-weight: 800;
   font-size: 44px;
   line-height: 158.34%;
   color: #fff7df;
@@ -350,14 +350,17 @@ body {
   transform: translateX(1050px);
 }
 .about-heading {
-  max-width: 330px;
+  max-width: 332px;
   font-size: 40px;
   line-height: 158.34%;
-  font-weight: 400;
+  font-weight: 300;
   background: -webkit-linear-gradient(#ffc000, #ff8a00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 12px;
+}
+.about-heading strong {
+  font-weight: 800;
 }
 .about-desc {
   display: block;
@@ -473,11 +476,12 @@ body {
   gap: 0 36px;
 }
 .stories-heading {
-  width: 371px;
+  width: 441px;
   font-size: 40px;
   line-height: 158.34%;
   color: #ffffff;
   margin-bottom: 40px;
+  font-weight: 800;
 }
 .stories-desc {
   display: block;
@@ -562,6 +566,7 @@ body {
   -webkit-text-fill-color: transparent;
   margin-bottom: 38px;
   font-weight: bold;
+  font-weight: 800;
 }
 .courses-category {
   display: flex;
@@ -717,7 +722,7 @@ body {
   font-size: 40px;
   line-height: 182.7%;
   color: #ffffff;
-  font-weight: bold;
+  font-weight: 800;
 }
 .achievement-name {
   width: 165px;
@@ -762,6 +767,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 96px 0 38px;
+  font-weight: 800;
 }
 .testimonials-title {
   max-width: 585px;
@@ -899,7 +905,7 @@ body {
 .price-heading {
   font-size: 40px;
   line-height: 158.34%;
-  font-weight: 700;
+  font-weight: 800;
   background: -webkit-linear-gradient(#ffc000, #ff8a00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1070,7 +1076,7 @@ body {
 .contact-heading {
   font-size: 24px;
   line-height: 1.2083333333;
-  font-weight: 700;
+  font-weight: 800;
   background: -webkit-linear-gradient(#ffc000, #ff8a00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1107,9 +1113,9 @@ body {
   padding-left: 1055px;
 }
 .contact-together {
-  max-width: 290px;
+  max-width: 331px;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 158.34%;
   background: -webkit-linear-gradient(#ffc000, #ff8a00);
   -webkit-background-clip: text;

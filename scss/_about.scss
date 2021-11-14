@@ -37,15 +37,20 @@
     transform: translateX(1050px);
   }
   &-heading {
-    max-width: calc(530px - 200px);
+    max-width: 332px;
     font-size: 40px;
     line-height: 158.34%;
-    font-weight: 400;
+    font-weight: 300;
     background: -webkit-linear-gradient($color1, $color2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 12px;
+
+    strong{
+      font-weight: 800;
+    }
   }
+
   &-desc {
     display: block;
     max-width: 387px;
